@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Trips";
+}
+@section Scripts {
+    <script src="~/lib/underscore/underscore-min.js"></script>
+    <script src="~/lib/angular/angular.min.js"></script>
+    <script src="~/lib/angular-route/angular-route.min.js"></script>
+    <script src="~/js/app-trips.js"></script>
+    <script src="~/js/tripsController.js"></script>
+    <script src="~/js/simpleControls.js"></script>
+    <script src="~/js/tripEditorController.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true&key=AIzaSyAtI-ExxV6E6q3IJi3oaIdRFvt2I52q9qo"></script>
+    <script src="~/lib/gmaps/gmaps.min.js"></script>
+    <script src="~/lib/travelMap/travelmap.min.js"></script>
+}
+
+<div class="row" data-ng-app="app-trips">
+    <div ng-view></div>
+
+</div>
